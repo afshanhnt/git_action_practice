@@ -9,9 +9,10 @@ on:
 jobs:
   hello-world:
     runs-on: ubuntu-latest
+    
     steps:
-        - name: "Print Hello World"
-            run: echo "Hello World!! I'm inside the ephemeral machine through GitHub Actions!!!"
+        - name: "Print Hello World!!!"
+          run: echo "Hello World!! I'm inside the ephemeral machine through GitHub Actions!!!"
 
         - name: "Printing out Date!"
-            run: date
+          run: date
